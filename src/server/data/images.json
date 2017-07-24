@@ -1,0 +1,25 @@
+{
+  "albumName": "Food Album",
+  "images": [
+    {
+      "src": "app/images/image1.jpg",
+      "caption": "Image 1"
+    },
+    {
+      "src": "app/images/image2.jpg",
+      "caption": "Image 2"
+    },
+    {
+      "src": "app/images/image3.jpg",
+      "caption": "Image 3"
+    },
+    {
+      "src": "app/images/image4.jpg",
+      "caption": "Image 4"
+    },
+    {
+      "src": "app/images/image5.jpg",
+      "caption": "Image 5"
+    }
+  ]
+}

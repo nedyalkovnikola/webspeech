@@ -1,0 +1,47 @@
+body {
+    padding-top: 50px;
+}
+
+.mainImage {
+    height: 300px;
+}
+
+a.thumbnail {
+    display: block;
+    padding-top: 75%;
+    position: relative;
+    outline: 1px solid white;
+}
+
+a.thumbnail > img {
+    max-width: 95%;
+    max-height: 95%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+a.selected {
+    outline: 1px solid;
+}
+
+a.selected img {
+    opacity: 0.5;
+}
+
+a:focus {
+    outline: none;
+}
+
+a h2.glyphicon {
+    margin: .5em 1em 1em;
+}
+
+h3 .glyphicon {
+    font-size: 0.5em;
+    margin-left: 10px;
+    vertical-align: 3px;
+}
